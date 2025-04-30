@@ -1,7 +1,6 @@
 function generateMagicSquare() {
   const container = document.getElementById("gridContainer");
   const errorDiv = document.getElementById("error");
-  const sumsDiv = document.getElementById("sums");
   container.innerHTML = "";
   errorDiv.innerText = "";
 
